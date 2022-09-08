@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+/*===header-area=== */
+.header-area{
+    background-color: #264653;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 6rem;
+    width: 6rem;
+}
+
+.logo>img{
+    width: 100%;
+}
+
+.menu-bar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 30px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.menu-bar ul li a:hover{
+   color: #FF6347;
+   font-weight: 500;
+}
+.menu-bar ul .btn{
+    margin-left: 30px;
+    background-color: #FF6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu-bar ul .btn:hover{
+    background-color: #FF0000;
+}
+
+/*=== hero-area ====*/
+.hero-area{
+    background-color: #264653;
+    padding: 60px;
+}
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+}
+.hero-image {
+	margin-left: 220px;
+}
+.hero-image img{
+    width: 100%;
+    align-items: center;
+}
+
+.hero-content{
+    max-width: 430px;
+}
+.hero-content p {
+	color: #fff;
+}
+
+.hero-content h4 {
+	color: #fff;
+	padding: 20px 0;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.hero-content .btn{
+    background-color: #FF6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* ===futured-bikes=== */
+.futured-bikes{
+    padding: 100px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title h3{
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #000
+
+}
+.title span{
+    color: #FF6347;
+}
+
+.bikes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bike-img{
+    flex-basis: 24%;
+}
+
+
+/*=== latest news ====*/
+.latest-news{
+    padding: 80px;
+}
+.latest-bikes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bikes-card{
+    flex-basis: 32%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.bikes-card h3{
+    padding: 10px;
+    font-size: 25px;
+}
+.bikes-card p{
+    line-height: 30px;
+}
+.bikes-card .btn{
+    background-color: #FF6347;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: .3s;
+}
+
+.bikes-card .btn:hover{
+    background-color: #fff;
+    border: 1px solid #FF6347;
+    color: #FF6347;
+}
+
+
+/*=== Testimonial ===*/
+.testimonial-area{
+    padding: 80px;
+}
+.testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testi-card{
+    flex-basis: 32%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.testi-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testi-card p{
+    font-size: 18px;
+}
+.testi-card .name{
+    color: #23A6F0;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.testi-card .title{
+    color: #FF6347;
+    font-weight: 400;
+}
+
+/*====Frequently Aksed Questions=== */
+.FQA{
+    padding: 80px;
+}
+.fqa-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fqa-img{
+    width: 50%;
+}
+.fqa-img img{
+    width: 100%;
+    height: 500px;
+}
+
+.fqa-content{
+    max-width: 40%;
+}
+
+.fqa-content .text{
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin: 10px;
+}
+.text h4{
+    font-size: 17px;
+}
+.text p{
+    color: rgb(173, 156, 156);
+    margin-top: 5px;
+}
+
+
+/*=== latest video ===*/
+.latest-video{
+    padding: 80px;
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-box{
+    flex-basis: 24%;
+    text-align: center;
+    margin: 20px;
+}
+
+/* ===latest-image==== */
+.latest-image{
+    padding: 40px;
+}
+
+.bike-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bike-img img{
+    width: 100%;
+}
+
+/*=== footer==== */
+.footer{
+    background: #000;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    
+}
+.left-content{
+    color: #fff;
+}
+ul a{
+    text-decoration: none;
+    margin-left:20px ;
+    color: #fff;
+
+}
+.right-content img{
+    width: 100px;
+    height: 100px;
+    background-color: #FF6347;
+}
+
+.right-content p{
+    color: #fff;
+    margin-bottom: 20px;
+}
